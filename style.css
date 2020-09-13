@@ -1,0 +1,52 @@
+
+h1 {
+    text-align: center;
+    margin-top: 5%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 4rem;
+    color:  rgb(219, 67, 67);
+}
+.drumSet {
+    display: flex;
+    padding-top: 12%;
+}
+button {
+    border: 3px solid rgb(245, 156, 156);
+    background-color: rgb(219, 67, 67);
+    border-radius: 9px;;
+    margin: auto;
+    font-size: 35px;
+    box-shadow: 5px 5px 6px;
+    padding: 50px 50px 50px 50px;
+}
+
+button:hover {
+    border: 3px solid rgba(245, 156, 156, 0);
+    cursor: pointer;
+}
+
+.w {
+    background-image: url("./images/tom1.png");
+}
+.a {
+    background-image: url("./images/tom2.png");
+}
+.s {
+    background-image: url("./images/tom3.png"); 
+}
+.d {
+    background-image: url("./images/tom4.png");
+}
+.j {
+    background-image: url("./images/snare.png");
+}
+.k {
+    background-image: url("./images/crash.png");
+}
+.l {
+    background-image: url("./images/kick.png");
+}
+.pressed{
+    opacity: 0.5;
+    box-shadow: 10px 10px 10px;
+}
